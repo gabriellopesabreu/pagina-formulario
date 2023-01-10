@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsivity.css" />
+    <!-- JS -->
+    <script src="./js/script.js" defer></script>
+    <title>Dungeon Capixaba</title>
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="img/dc_logo-removebg-preview.png"
+        alt=""
+        class="img-class-logo"
+        width="300rem"
+        height="250rem"
+      />
+    </header>
+    <main>
+      <div class="container">
+        <section>
+          <div class="card__container">
+            <div class="description__card">
+              <h2>RECEBA INFORMAÇÕES DOS PRÓXIMOS EVENTOS</h2>
+            </div>
+            <div class="formulario__card">
+              <form action="" method="post">
+                <div class="display__formulario">
+                  <label for="nome">Nome</label>
+                  <input type="text" name="name" id="nome" required />
+                </div>
+                <div class="display__formulario">
+                  <label for="mail">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="mail"
+                    required
+                    placeholder="email@meuemail.com"
+                  />
+                </div>
+                <span class="error" aria-live="polite"></span>
+                <div class="display__formulario">
+                  <label for="tel">Telefone</label>
+                  <input
+                    type="text"
+                    name="telephone"
+                    id="tel"
+                    required
+                    minlength="12"
+                    maxlength="12"
+                    placeholder="(DDD)99999-9999"
+                  />
+                </div>
+                <div class="display__formulario">
+                  <label for="estado">Estado</label>
+                  <input type="text" name="state" id="estado" required />
+                </div>
+                <div class="display__formulario">
+                  <label for="cidade">Cidade</label>
+                  <input type="text" name="city" id="cidade" required />
+                </div>
+                <button type="submit" id="btn-submit">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <hr />
+
+        <section>
+          <div class="card__container">
+            <div class="description__card">
+              <h3>Quem Somos</h3>
+              <p>
+                A Dungeon Capixaba é uma associação sem fins lucrativos que
+                promove encontros de RPG (Role-playing Game), board e card
+                games, no estado do Espirito Santo com objetivo de apresentar
+                novidades, formar grupos de jogos e ampliar a prática do hobby.
+              </p>
+            </div>
+            <div class="img__card">
+              <img src="img/dc_logo.jpg" alt="" class="img-class" />
+            </div>
+          </div>
+        </section>
+        <hr />
+
+        <section>
+          <div class="card__container_reverse">
+            <div class="description__card">
+              <h3>O que é RPG</h3>
+              <p>
+                Role-playing game, também conhecido como RPG, é um tipo de jogo
+                em que os jogadores assumem papéis de personagens e criam
+                narrativas colaborativamente.
+              </p>
+            </div>
+            <div class="img__card">
+              <img src="img/imagem_1.jpg" alt="" class="img-card" />
+            </div>
+          </div>
+        </section>
+        <hr />
+
+        <section>
+          <div class="card__container">
+            <div class="description__card">
+              <h3>O que é Boardgame</h3>
+              <p>
+                Os Board Games, que antigamente eram conhecidos apenas como
+                jogos de tabuleiro, são jogos modernos que trazem muito mais
+                diversão, estratégia e desafios para jogadores de todas as
+                idades.
+              </p>
+            </div>
+            <div class="img__card">
+              <img
+                src="./img/smallworldboardgames-2048px-33.jpg"
+                alt=""
+                class="img-card"
+              />
+            </div>
+          </div>
+        </section>
+        <hr />
+
+        <section>
+          <div class="card__container_reverse">
+            <div class="description__card">
+              <h3>Quem Pode Jogar</h3>
+              <p>
+                Todos que queiram se aventurar em mundos fictiveis sejam
+                medieval, futuristicos, apocalipticos e muito mais.
+              </p>
+            </div>
+            <div class="img__card">
+              <img src="img/imagem_2.jpg" alt="" class="img-class" />
+            </div>
+          </div>
+        </section>
+        <hr />
+
+        <section>
+          <div class="card__container">
+            <div class="description__card">
+              <h3>Como Participo?</h3>
+              <p>
+                Esteja atendo aos eventos realizados pela Dungeon Capixaba e
+                traga a família e os amigos.
+              </p>
+            </div>
+            <div class="img__card">
+              <img src="img/imagem_4.png " alt="" class="img-class" />
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

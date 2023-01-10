@@ -1,0 +1,42 @@
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 70%;
+  }
+  .description__card {
+    width: 30%;
+    min-width: 400px;
+    min-height: 300px;
+  }
+
+  .description__card > h2{
+    font-size: 2.8rem;
+  }
+
+  .card__container_reverse {
+    flex-direction: row-reverse;
+  }
+
+  .card__container img,
+  .card__container_reverse img {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+    .card__container img,
+    .card__container_reverse img {
+      width: 250px;
+      height: 200px;
+    }
+
+    .description__card > h3 {
+        font-size: 2.5rem;
+    }
+}

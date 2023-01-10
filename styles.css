@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+body {
+  background-color: rgb(146, 63, 222);
+}
+
+.container {
+  background-color: white;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.formulario__card {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.description__card {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description__card > h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.description__card > h3 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.description__card > p {
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card__container,
+.card__container_reverse {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  align-items: center;
+}
+
+.card__container img,
+.card__container_reverse img {
+  width: 20rem;
+}
+
+.img__card {
+  display: flex;
+  align-items: center;
+}
+
+.display__formulario label {
+  display: inline-block;
+  width: 5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#btn-submit {
+  background-color: green;
+  color: white;
+  height: auto;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-left: 40%;
+}
+
+input {
+  height: 1.8rem;
+  border-radius: 8px;
+  border-color: #000;
+}
+
+input:valid {
+  border: 2px solid rgb(6, 161, 22);
+}
+
+.error {
+  color: red;
+  font-size: .8rem;
+}
+
+.error.active {
+  padding: 0.3em;
+}
